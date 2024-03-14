@@ -105,13 +105,9 @@ const Home = () => {
                       />
 
                       <div className="flex justify-between gap-8 w-full ">
-                        <div className="flex flex-col gap-2 flex-grow">
-                          {" "}
-                          {/* Use flex-grow */}
-                          <h5 className="truncate overflow-hidden whitespace-nowrap">
-                            {" "}
-                            {/* Apply white-space: nowrap */}
-                            Opna Women's Short Sleeve Moisture
+                        <div className="flex flex-col gap-2 flex-1">
+                          <h5 className="flex-1 break-all line-clamp-1 leading-6 ">
+                            {product.title}
                           </h5>
                           <p className="text-slate-600 dark:text-slate-100 font-sm">
                             ${product.price}

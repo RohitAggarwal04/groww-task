@@ -13,9 +13,9 @@ import { LuSun, LuMoon } from "react-icons/lu";
 const Theme = () => {
   const { mode, setMode } = useTheme();
   return (
-    <Menubar className=" bg-transparent border-none shadow-none w-full relative justify-end px-6 invert-colors ">
+    <Menubar className=" bg-transparent border-none shadow-none w-full relative justify-end px-10 py-10 invert-colors ">
       <MenubarMenu>
-        <MenubarTrigger className="">
+        <MenubarTrigger className="border dark:border-white shadow-md dark:shadow-white rounded-full p-5  ">
           {" "}
           {mode === "light" ? <LuSun size={20} /> : <LuMoon size={20} />}{" "}
         </MenubarTrigger>

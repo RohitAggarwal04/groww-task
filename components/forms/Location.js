@@ -6,13 +6,13 @@ const ContactDetails = () => {
       <Input
         type="text"
         icon="IoLocationOutline"
-        className="bg-slate-200 w-80 pl-5  "
+        className="bg-slate-200 sm:w-80 w-full pl-5  "
         placeholder="Your address"
       />
       <Input
         type="number"
         icon="IoCallOutline"
-        className=" w-full pl-5 max-w-2xl "
+        className=" w-full pl-5 sm:max-w-2xl  "
         placeholder="Your Contact Number"
       />
     </div>

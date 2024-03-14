@@ -1,0 +1,3 @@
+.invert-colors {
+  @apply dark:text-white;
+}
